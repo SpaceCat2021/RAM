@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM_API_RickAndMorty</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon" />
+    <script src="https://use.fontawesome.com/c0fdc80284.js"></script>  
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">Rick <div class="header__logo--and">And</div> Morty
+      <div class="scroller-companies" infinite-scroll="showMorePlaces()" infinite-scroll-parent="true"></div>
+      <div class="menu">
+         <div class="menu__dws">
+          <ul class="dws-ul">
+            <li class="dws-li"><a href="#"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Sort on Created Inc</a></li>
+            <li class="dws-li"><a href="#"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Sort on Created Des</a></li>
+            <li class="dws-li"><a href="#"><i class="fa fa-youtube-play fa-fw" aria-hidden="true"></i>Sort on Episode</a></li>
+            <li class="dws-li"><a href="#"><i class="fa fa-server fa-fw" aria-hidden="true"></i>All</a></li>
+          </ul>
+        </div> 
+      </div>
+    </header>  
+    <div class="search-box">
+      <input
+        type="text"
+        placeholder="Search by name ... and press Enter"
+        id="searchInput"
+        />
+    </div>   
+    <div class="container">
+      <div class="main-section">
+        <div class="main-card">
+          <div class="card-section">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/App.js"></script>
+  </body>
+</html>
