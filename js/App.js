@@ -7,9 +7,6 @@ const cardSection = document.querySelector(".card-section");
 //console.log(cardSection);
 const searchInput = document.getElementById("searchInput");
 
-//const elemsOne = document.querySelectorAll(".rickandmorty.name");
-//console.log(elemsOne);
-
 searchInput.addEventListener("keypress", setQuery);
 
 function setQuery(e) {
